@@ -132,7 +132,7 @@ public class Branches extends JFrame implements MouseListener, ItemListener {
 
         branch(g, num - 1, x2, y2, length, angle + angleChange, angleChange, factor);
 
-        if (chkbox1.isSelected()) {   // change color by recursion
+        if (chkbox1.isSelected()) {   // change color by recursion on branch
             float hue = (factor * num); //hue
             float saturation = 1.0f; //saturation
             float brightness = 1.0f; //brightness
